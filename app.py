@@ -434,4 +434,4 @@ def logout():
     session["id"]=""
     return redirect(url_for("login"))
 
-app.run(debug='True',host="0.0.0.0")
+#app.run(debug='True',host="0.0.0.0")
